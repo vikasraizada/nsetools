@@ -57,14 +57,14 @@ class Nse(AbstractBaseExchange):
         self.headers = self.nse_headers()
         # URL list
         self.get_quote_url = 'https://www.nseindia.com/live_market/dynaContent/live_watch/get_quote/GetQuote.jsp?'
-        self.stocks_csv_url = 'http://www.nseindia.com/content/equities/EQUITY_L.csv'
-        self.top_gainer_url = 'http://www.nseindia.com/live_market/dynaContent/live_analysis/gainers/niftyGainers1.json'
-        self.top_loser_url = 'http://www.nseindia.com/live_market/dynaContent/live_analysis/losers/niftyLosers1.json'
+        self.stocks_csv_url = 'https://www.nseindia.com/content/equities/EQUITY_L.csv'
+        self.top_gainer_url = 'https://www.nseindia.com/live_market/dynaContent/live_analysis/gainers/niftyGainers1.json'
+        self.top_loser_url = 'https://www.nseindia.com/live_market/dynaContent/live_analysis/losers/niftyLosers1.json'
         self.top_fno_gainer_url\
             = 'https://www.nseindia.com/live_market/dynaContent/live_analysis/gainers/fnoGainers1.json'
         self.top_fno_loser_url = 'https://www.nseindia.com/live_market/dynaContent/live_analysis/losers/fnoLosers1.json'
-        self.advances_declines_url = 'http://www.nseindia.com/common/json/indicesAdvanceDeclines.json'
-        self.index_url="http://www.nseindia.com/homepage/Indices1.json"
+        self.advances_declines_url = 'https://www.nseindia.com/common/json/indicesAdvanceDeclines.json'
+        self.index_url="https://www.nseindia.com/homepage/Indices1.json"
         self.bhavcopy_base_url = "https://www.nseindia.com/content/historical/EQUITIES/%s/%s/cm%s%s%sbhav.csv.zip"
         self.bhavcopy_base_filename = "cm%s%s%sbhav.csv"
         self.active_equity_monthly_url =\
